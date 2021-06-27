@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="header">
+
+    </header>
+    <main class="main">
+        <div class="datecalc hidden">
+            <form id="datecalc" class="datecalc__form">
+                <h3>Калькулятор дат</h3>
+                <label>
+                    <strong>Первая дата:</strong>
+                    <input type="date" name="firstDate" />
+                </label>
+                <label>
+                    <strong>Вторая дата:</strong>
+                    <input type="date" name="secondDate" />
+                </label>
+                <button type="submit">Расчитать промежуток</button>
+                <p id="datecalc__result"></p>
+            </form>
+        </div>
+        <div class="timer hidden">
+            <form id="timer">
+                <h3>Таймер</h3>
+                <label class="timer__label">
+                    <strong>Таймер сработает через</strong>
+                    <br>
+                    <input type="number" id="hours" value="0">
+                    <p>Часов</p>
+                    <input type="number" id="minutes" value="0">
+                    <p>Минут</p>
+                    <input type="number" id="seconds" value="0">
+                    <p>Секунд</p>
+                    <button type="button" id="timerStart">Старт</button>
+                    <button type="submit" id="timerStop">Стоп</button>
+                    <audio id="soundBeep" src="timeProj/0b0d4a8f1e555567d59b51755137f5cf.mp3" preload="auto"></audio>
+                </label>
+                <div id="inTime"></div>
+            </form>
+        </div>
+    </main>
+    <footer class="footer">
+
+    </footer>
+</body>
+
+</html>

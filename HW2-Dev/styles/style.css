@@ -1,0 +1,127 @@
+.main {
+  position: relative;
+}
+
+.button {
+  height: 50px;
+  width: 240px;
+  border: 1px solid #000;
+  background-color: #4c664a;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.button:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.button-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.datecalc {
+  height: 200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: 1px solid #000;
+  background-color: #99e6cf;
+  -webkit-box-shadow: 17px 19px 15px 4px rgba(68, 108, 139, 0.24);
+  box-shadow: 17px 19px 15px 4px rgba(68, 108, 139, 0.24);
+  margin-bottom: 24px;
+}
+
+.datecalc__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.datecalc__form > label {
+  margin-top: 12px;
+}
+
+.datecalc__form > button {
+  margin-top: 12px;
+}
+
+.timer {
+  height: 360px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: 1px solid #000;
+  background-color: #99e6cf;
+  -webkit-box-shadow: 17px 19px 15px 4px rgba(68, 108, 139, 0.24);
+  box-shadow: 17px 19px 15px 4px rgba(68, 108, 139, 0.24);
+  margin-bottom: 24px;
+}
+
+.timer__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.timer__form > label {
+  margin-top: 12px;
+}
+
+.timer__form > button {
+  margin-top: 12px;
+}
+
+.hidden {
+  display: none;
+}
+/*# sourceMappingURL=style.css.map */
